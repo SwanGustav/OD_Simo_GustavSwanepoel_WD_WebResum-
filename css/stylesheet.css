@@ -9,6 +9,7 @@ body {
 .heading {
     background: cyan url(/imagesForWDProject/blueBackground.jpg);
     background-size: cover;
+    text-align: center;
 }
 
 #profilePhoto {
