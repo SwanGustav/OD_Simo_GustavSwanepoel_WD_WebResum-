@@ -1,3 +1,32 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    background-color: rgb(19, 19, 240);
+    display: flex;
+    flex-direction: column;
+}
+
 .heading {
-    
+    background: cyan url(/imagesForWDProject/blueBackground.jpg);
+    background-size: cover;
+}
+
+#profilePhoto {
+    width: 16%;
+    border-radius: 40%;
+    border: 3px solid whitesmoke;
+    margin-top: 10px;
+}
+#profilePicAnimation {
+    animation-duration: 8s;
+    animation-name: slide;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes slide {
+    0% {margin-left: 0%;}
+    25% {margin-left: 3%;}
+    50% {margin-left: 0%;}
+    75% {margin-left: -3%;}
+    100% {margin-left: 0%;}
 }
