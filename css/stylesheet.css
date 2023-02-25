@@ -17,6 +17,7 @@ body {
     border-radius: 40%;
     border: 3px solid whitesmoke;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 #profilePicAnimation {
     animation-duration: 8s;
