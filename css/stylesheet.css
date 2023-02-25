@@ -6,8 +6,7 @@ body {
     flex-direction: column;
 }
 
-
-/* My header section */
+/* My HEADER section */
 .heading {
     background: cyan url(/imagesForWDProject/blueBackground.jpg);
     background-size: cover;
@@ -17,11 +16,12 @@ body {
     background-color: lightblue;
     text-align: center;
 }
-.jumbotronText {
-    padding-top: 20px;
+#jumbotronText {
+    padding: 20px;
+    text-align: justify;
 }
 
-/* I did the following CSS animation on my profile picture to meet the rubric requirement - the transitions are minimal to ensure it does not jar the person viewing it */
+/* I did the following CSS ANIMATION on my profile picture to meet the rubric requirement - the transitions are minimal to ensure it does not jar the person viewing it */
 #profilePhoto {
     width: 16%;
     border-radius: 40%;
