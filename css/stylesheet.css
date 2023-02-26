@@ -27,7 +27,7 @@ body {
     text-align: justify;
 }
 
-/* I did the following CSS ANIMATION on my profile picture to meet the rubric requirement - the transitions are minimal to ensure it does not jar the person viewing it */
+/* CSS ANIMATION: Applied to my profile picture to meet the rubric requirement - the transitions are minimal to ensure it does not jar the person viewing it */
 #profilePhoto {
     width: 16%;
     border-radius: 40%;
@@ -49,7 +49,7 @@ body {
     100% {margin-left: 0%;}
 }
 
-/* My carousel */
+/* CAROUSEL */
 .carousel-item {
     max-height: 300px !important;
 }
@@ -58,4 +58,10 @@ body {
     font-size: xx-large;
     font: bold;
     font-family: fantasy;
+}
+
+/* BOOTSTRAP FORM (no JS has been taught yet; therefore added purely to satisfy rubric requirement) */
+.form-group {
+    margin: 20px;
+    background-color: aquamarine;
 }
