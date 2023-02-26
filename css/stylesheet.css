@@ -76,3 +76,27 @@ body {
 .card-body {
     background-color: azure;
 }
+
+/* MAIN */
+h1 {
+    color: white;
+}
+h2:hover {
+    color: red
+}
+h2 {
+    font-family: 'verdana';
+    font-size: 30px;
+    background-color: aquamarine;
+    color: green;
+    margin: 0px;
+    padding: 10px;
+    border-style: inset;
+    border-color: black;
+}
+h3 {
+    padding: 10px;
+}
+p {
+    padding: 10px;
+}
