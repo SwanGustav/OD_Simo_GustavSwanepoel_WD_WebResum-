@@ -65,3 +65,14 @@ body {
     margin: 20px;
     background-color: aquamarine;
 }
+
+/* CARD */
+.card {
+    margin: 20px;
+}
+.card-header {
+    background-color: antiquewhite;
+}
+.card-body {
+    background-color: azure;
+}
