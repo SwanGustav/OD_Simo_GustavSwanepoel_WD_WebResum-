@@ -22,11 +22,13 @@ html {
     background-size: cover;
     text-align: center;
 }
+
 .jumbotron {
     background-color: lightblue;
     text-align: center;
     margin: 10px;
 }
+
 #jumbotronText {
     padding: 20px;
     text-align: justify;
@@ -40,24 +42,41 @@ html {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 #profilePicAnimation {
     animation-duration: 8s;
     animation-name: slide;
     animation-direction: normal;
     animation-iteration-count: infinite;
 }
+
 @keyframes slide {
-    0% {margin-left: 0%;}
-    25% {margin-left: 3%;}
-    50% {margin-left: 0%;}
-    75% {margin-left: -3%;}
-    100% {margin-left: 0%;}
+    0% {
+        margin-left: 0%;
+    }
+
+    25% {
+        margin-left: 3%;
+    }
+
+    50% {
+        margin-left: 0%;
+    }
+
+    75% {
+        margin-left: -3%;
+    }
+
+    100% {
+        margin-left: 0%;
+    }
 }
 
 /* CAROUSEL */
 .carousel-item {
     max-height: 300px !important;
 }
+
 .carousel-caption {
     color: blue;
     font-size: xx-large;
@@ -75,9 +94,11 @@ html {
 .card {
     margin: 20px;
 }
+
 .card-header {
     background-color: antiquewhite;
 }
+
 .card-body {
     background-color: azure;
 }
@@ -88,6 +109,7 @@ h2 {
     border-style: inset;
     border-color: black;
 }
+
 /* Text margins ensured small viewports have one and not two columns of text to view */
 .row {
     margin-left: 75px;
@@ -102,17 +124,21 @@ footer {
     margin: 20px;
     color: whitesmoke;
 }
+
 #toTop {
     color: red;
     margin: 10px;
-    }
+}
+
 #gmailIcon {
     width: 10%;
 }
+
 /* A -blue- hyperlink underline associated with the anchor tag kept appearing next to gmail icon and the following removed it */
 #gmailIconLink {
     text-decoration: none;
 }
+
 #linkedInIcon {
     width: 8%;
 }
