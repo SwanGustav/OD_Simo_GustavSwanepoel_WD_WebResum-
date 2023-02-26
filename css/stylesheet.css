@@ -6,6 +6,11 @@ body {
     flex-direction: column;
 }
 
+.btn {
+    padding: 10px;
+    margin: 10px;
+}
+
 /* My HEADER section */
 .heading {
     background: cyan url(/imagesForWDProject/blueBackground.jpg);
@@ -15,6 +20,7 @@ body {
 .jumbotron {
     background-color: lightblue;
     text-align: center;
+    margin: 10px;
 }
 #jumbotronText {
     padding: 20px;
@@ -43,9 +49,13 @@ body {
     100% {margin-left: 0%;}
 }
 
-/* My navbar */
-
-.btn {
-    padding: 10px;
-    margin: 10px;
+/* My carousel */
+.carousel-item {
+    max-height: 300px !important;
+}
+.carousel-caption {
+    color: blue;
+    font-size: xx-large;
+    font: bold;
+    font-family: fantasy;
 }
