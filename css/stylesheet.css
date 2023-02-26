@@ -88,6 +88,12 @@ h2 {
     border-style: inset;
     border-color: black;
 }
+/* Text margins ensured small viewports have one and not two columns of text to view */
+.row {
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: justify;
+}
 
 /* FOOTER */
 footer {
@@ -109,4 +115,28 @@ footer {
 }
 #linkedInIcon {
     width: 8%;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: cyan;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: deepskyblue;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: lightskyblue;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: lightblue
+    }
 }
