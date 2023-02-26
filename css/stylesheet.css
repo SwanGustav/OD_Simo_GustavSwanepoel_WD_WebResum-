@@ -1,7 +1,7 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: verdana;
     font-size: 110%;
-    background-color: rgb(19, 19, 240);
+    background-color: rgb(15, 31, 213);
     display: flex;
     flex-direction: column;
 }
@@ -41,4 +41,11 @@ body {
     50% {margin-left: 0%;}
     75% {margin-left: -3%;}
     100% {margin-left: 0%;}
+}
+
+/* My navbar */
+
+.btn {
+    padding: 10px;
+    margin: 10px;
 }
