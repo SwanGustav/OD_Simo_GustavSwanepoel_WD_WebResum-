@@ -11,6 +11,11 @@ body {
     margin: 10px;
 }
 
+/* For smooth transition directly on page from links */
+html {
+    scroll-behavior: smooth;
+}
+
 /* My HEADER section */
 .heading {
     background: cyan url(/imagesForWDProject/blueBackground.jpg);
@@ -82,4 +87,26 @@ h2 {
     background-color: aquamarine;
     border-style: inset;
     border-color: black;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    text-align: center;
+    margin: 20px;
+    color: whitesmoke;
+}
+#toTop {
+    color: red;
+    margin: 10px;
+    }
+#gmailIcon {
+    width: 10%;
+}
+/* A -blue- hyperlink underline associated with the anchor tag kept appearing next to gmail icon and the following removed it */
+#gmailIconLink {
+    text-decoration: none;
+}
+#linkedInIcon {
+    width: 8%;
 }
