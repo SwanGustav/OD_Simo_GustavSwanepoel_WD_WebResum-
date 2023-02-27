@@ -18,7 +18,7 @@ html {
 
 /* My HEADER section */
 .heading {
-    background: cyan url(/imagesForWDProject/blueBackground.jpg);
+    background: cyan url(../imagesForWDProject/blueBackground.jpg);
     background-size: cover;
     text-align: center;
 }
